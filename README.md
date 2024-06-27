@@ -6,4 +6,4 @@
 
 ## Spring
 - **Spring Docs**
-  - [SpringDocs 소개](./Backend/Spring/SpringDocs/SpringDocs%20소개.md)
+  - [SpringDocs 사용하기](./Backend/Spring/SpringDocs/SpringDocs%20소개.md)
