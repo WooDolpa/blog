@@ -78,6 +78,7 @@ public class OpenApiConfig {
 생성 후 서버 재시작 한뒤 다시 접속한다.
 
 ![](./img/1/2.png)
+
 **변경 확인**
 
 ## 마무리
