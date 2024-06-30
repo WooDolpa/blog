@@ -32,3 +32,4 @@ flutter doctor
 - Xcode가 설치가 안되어있음
 - Android Studio 가 설치되어 있지 않음
 
+### 안드로이드 스튜디오 설치
