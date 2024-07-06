@@ -118,3 +118,5 @@ flutter doctor --android-licenses
 
 #### Flutter SDK 설치 경로를 선택해 줍니다.
 ![](./2/21.png)
+
+#### 테스트 입니다.
