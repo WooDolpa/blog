@@ -44,11 +44,63 @@
 
 ![](./img/2/3.png)
 
-적용 후 
+적용 후 실행하게되면 결과는 다음과 같습니다.
 
----
+![](./img/2/4.png)
 
-## 3
+조금 더 직관적으로 확인이 가능해졌습니다.
+
+## @Operation
+`@Operation` 어노테이션은 특정 API에 대한 메타 데이터를 정의하는데 사용합니다.
+
+<table>
+    <thead>
+        <tr>
+            <th>속성</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>summary</td>
+            <td>API 엔드포인트의 간단한 설명을 제공</td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>API 엔드포인트의 설명을 제공</td>
+        </tr>
+        <tr>
+            <td>tags</td>
+            <td>엔드포인트 그룹화 지정</td>
+        </tr>
+        <tr>
+            <td>parameters</td>
+            <td>매개변수를 정의</td>
+        </tr>
+        <tr>
+            <td>responses</td>
+            <td>엔드포인트의 응답을 정의</td>
+        </tr>
+        <tr>
+            <td>requestBody</td>
+            <td>엔드포인트 요청 Body 정의</td>
+        </tr>
+        <tr>
+            <td>deprecated</td>
+            <td>엔드포인트가 더 이상 사용되지 않음을 나타냄</td>
+        </tr>
+    </tbody>
+</table>
+
+정리한 속성 외에 다른 속성 정보는 공식 문서 또는 어노테이션 내부를 확인하면 될거 같습니다.
+
+Get API에 대한 메타 데이터 선언은 다음과 같습니다.
+
+![](./img/2/5.png)
+
+적용 후 실행하게되면 결과는 다음과 같습니다.
+
+![](./img/2/7.png)
 
 ---
 
