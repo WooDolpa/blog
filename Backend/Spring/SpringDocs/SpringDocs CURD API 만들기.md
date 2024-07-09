@@ -1,17 +1,50 @@
-# SpringDocs CURD API 만들기
-
-## 목차
-- 1
-- 2
-- 3
+# SpringDocs API 만들기
 
 ---
 
-## 1
+이번에는 간단한 API를 만들어 보겠습니다. <br>
+개인 프로젝트에서 상품 관련 CURD 가 필요하여 만들어 보겠습니다. 
 
 ---
 
-## 2
+먼저 ProductController 클래스를 만들고 다음과 같이 작성합니다. 
+
+![](./img/2/1.png)
+
+작성 후 애플리케이션을 실행하여 결과는 다음과 같습니다.
+
+![](./img/2/2.png)
+
+여기서 `product-controller` 단어만 보면 상품 관련된 controller 라고 유추가 가능하지만 조금 더 논리적으로 해보겠습니다.
+
+## @Tag
+`@Tag` 어노테이션은 API 엔드포인트를 그룹화하는 데 사용됩니다.
+이를 통해 API 문서에서 논리적으로 관련된 엔드포인트들을 함께 묶어 더 이해하기 쉽게 만들 수 있습니다.
+
+<table>
+    <thead>
+        <tr>
+            <th>속성</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>태그명</td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>태그에 대한 설명을 제공합니다.</td>
+        </tr>
+    </tbody>
+</table>
+
+`@Tag` 적용은 다음과 같습니다.
+
+![](./img/2/3.png)
+
+적용 후 
 
 ---
 
