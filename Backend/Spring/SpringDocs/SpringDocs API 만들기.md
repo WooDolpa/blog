@@ -3,7 +3,7 @@
 ---
 
 이번에는 간단한 API를 만들어 보겠습니다. <br>
-개인 프로젝트에서 상품 관련 CURD 가 필요하여 만들어 보겠습니다. 
+개인 프로젝트에서 상품 관련 조회 API를 만들어 보겠습니다. 
 
 ---
 
@@ -150,25 +150,27 @@ url 에서 값을 가져오기 위해 @PathVariable 선언하여 파라미터를
     </thead>
     <tbody>
         <tr>
-            <td>name</td>
-            <td>파라미터 이름을 지정</td>
+            <td>responseCode</td>
+            <td>응답 상태 코드</td>
         </tr>
         <tr>
             <td>description</td>
-            <td>파라미터 설명</td>
+            <td>응답 설명</td>
         </tr>
         <tr>
-            <td>required</td>
-            <td>파라미터가  필수여부인지 지정</td>
+            <td>content</td>
+            <td>응답 본문의 내용 정의</td>
         </tr>
     </tbody>
 </table>
 
----
+적용하면 다음과 같습니다. 
 
+![](./img/2/9.png)
 
+결과 화면은 다음과 같습니다.
 
-## 마무리
+![](./img/2/10.png)
 
 
 ---
