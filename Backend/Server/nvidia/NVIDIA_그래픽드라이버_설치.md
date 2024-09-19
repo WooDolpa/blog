@@ -25,4 +25,8 @@
   ![](./img/1/4.png)
   ![](./img/1/5.png)
   ![](./img/1/6.png)
-  
+- run 파일 서버에 업로드
+  ```bash
+  scp NVIDIA-Linux-x86_64-550.107.02.run [계정명]@[host]:[옮길 위치]
+  ```
+  ![](./img/1/7.png)
