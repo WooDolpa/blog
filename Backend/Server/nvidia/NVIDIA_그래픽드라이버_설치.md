@@ -23,4 +23,6 @@
 - [NVIDIA Driver 다운로드](https://www.nvidia.com/download/index.aspx) <br>
   **위에서 찾은 정보 바탕으로 드라이버를 검색한다.**
   ![](./img/1/4.png)
+  ![](./img/1/5.png)
+  ![](./img/1/6.png)
   
