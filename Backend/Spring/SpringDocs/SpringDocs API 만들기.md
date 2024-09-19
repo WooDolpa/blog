@@ -3,7 +3,7 @@
 ---
 
 이번에는 간단한 API를 만들어 보겠습니다. <br>
-개인 프로젝트에서 상품 관련 CURD 가 필요하여 만들어 보겠습니다. 
+개인 프로젝트에서 상품 관련 조회 API를 만들어 보겠습니다. 
 
 ---
 
@@ -102,13 +102,75 @@ Get API에 대한 메타 데이터 선언은 다음과 같습니다.
 
 ![](./img/2/6.png)
 
+해당 API는 상품 아이디를 받아 상품 상세 정보를 확인할 수 있는 API 이므로 PathVariable를 사용하여 구현하도록 하겠습니다.
 
+![](./img/2/7.png)
 
----
+url 에서 값을 가져오기 위해 @PathVariable 선언하여 파라미터를 설정하고 @GetMapping 어노테이션에 `{}` 변수명을 지정합니다.
 
+@Parameter 어노테이션을 사용하여 명칭, 설명, 필수여부 등을 정의합니다.
 
+## @Parameter
+<table>
+    <thead>
+        <tr>
+            <th>속성</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>파라미터 이름을 지정</td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>파라미터 설명</td>
+        </tr>
+        <tr>
+            <td>required</td>
+            <td>파라미터가  필수여부인지 지정</td>
+        </tr>
+    </tbody>
+</table>
 
-## 마무리
+위의 설정이 끝나면 재시작 뒤에 결과 화면을 다시 확인합니다.
+
+![](./img/2/8.png)
+
+## @ApiResponse
+응답에 대한 데이터를 정의합니다.
+
+<table>
+    <thead>
+        <tr>
+            <th>속성</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>responseCode</td>
+            <td>응답 상태 코드</td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td>응답 설명</td>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>응답 본문의 내용 정의</td>
+        </tr>
+    </tbody>
+</table>
+
+적용하면 다음과 같습니다. 
+
+![](./img/2/9.png)
+
+결과 화면은 다음과 같습니다.
+
+![](./img/2/10.png)
 
 
 ---
