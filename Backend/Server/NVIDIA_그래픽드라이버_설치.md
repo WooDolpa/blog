@@ -10,23 +10,23 @@
   ```bash
   lsb_release -a 
   ```
-  ![](./img/1/1.png)
+  ![](img/1.png)
   ```bash
   unmae -a 
   ```
-  ![](./img/1/2.png)
+  ![](img/2.png)
 - 그래픽 정보 확인
   ```bash
   lspci | grep VGA
   ```
-  ![](./img/1/3.png)
+  ![](img/3.png)
 - [NVIDIA Driver 다운로드](https://www.nvidia.com/download/index.aspx) <br>
   **위에서 찾은 정보 바탕으로 드라이버를 검색한다.**
-  ![](./img/1/4.png)
-  ![](./img/1/5.png)
-  ![](./img/1/6.png)
+  ![](img/4.png)
+  ![](img/5.png)
+  ![](img/6.png)
 - run 파일 서버에 업로드
   ```bash
   scp NVIDIA-Linux-x86_64-550.107.02.run [계정명]@[host]:[옮길 위치]
   ```
-  ![](./img/1/7.png)
+  ![](img/7.png)

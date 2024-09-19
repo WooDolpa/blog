@@ -10,8 +10,8 @@
   - [SpringDocs CURD API 만들기](./Backend/Spring/SpringDocs/SpringDocs%20CURD%20API%20만들기.md)
 
 ## Server
-- **NVIDIA 설치**
-  - [NVIDIA 그래픽 드라이버 설치](./Backend/Server/nvidia/NVIDIA_그래픽드라이버_설치.md)
+- [서버 기본 설정 및 설치](./Backend/Server/서버%20기본%20설정%20및%20설치.md) 
+- [NVIDIA 그래픽 드라이버 설치](Backend/Server/NVIDIA_그래픽드라이버_설치.md)
   
 <hr>
 
