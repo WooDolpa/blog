@@ -11,7 +11,7 @@
 
 ## Server
 - [서버 기본 설정 및 설치](./Backend/Server/서버%20기본%20설정%20및%20설치.md) 
-- [NVIDIA 그래픽 드라이버 설치](Backend/Server/NVIDIA_그래픽드라이버_설치.md)
+- [NVIDIA 그래픽 드라이버 설치](Backend/Server/1.NVIDIA_그래픽드라이버_설치)
   
 <hr>
 
