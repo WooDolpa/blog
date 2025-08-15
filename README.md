@@ -24,3 +24,8 @@
 
 # 📒 디스코드
  - [WebHook 연동](./Discord/WebHook.md)
+
+<hr>
+
+# 📒 퍼블리싱
+ - [체크리스트](./퍼블리싱/checklist.md)
