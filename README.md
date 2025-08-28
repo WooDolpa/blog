@@ -8,6 +8,8 @@
 - **Spring Docs**
   - [SpringDocs 사용하기](./Backend/Spring/SpringDocs/SpringDocs%20소개.md)
   - [SpringDocs CURD API 만들기](./Backend/Spring/SpringDocs/SpringDocs%20CURD%20API%20만들기.md)
+- **Spring Data JPA**
+  - [Spring Data JPA 신규 Entity 판단하는 방법은?](./Backend/Spring/SpringDataJPA/Spring%20Data%20JPA%20신규%20Entity%20판단하는%20방법.md)
 - **Mail**
   - [Spring Google SMTP 메일 연동하기](./Backend/Spring/mail/Spring%20Google%20SMTP%20메일%20연동하기.md)
 
